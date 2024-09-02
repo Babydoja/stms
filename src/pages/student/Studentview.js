@@ -114,7 +114,7 @@ const Studentview = () => {
             </div>
             <div className="views-personal">
             <h4>Email</h4>
-            <h5><a href="https://preschool.dreamstechnologies.com/cdn-cgi/l/email-protection" className="__cf_email__" data-cfemail="7216131b010b32151f131b1e5c111d1f">[email&#160;protected]</a></h5>
+            {/* <h5><a href="https://preschool.dreamstechnologies.com/cdn-cgi/l/email-protection" className="__cf_email__" data-cfemail="7216131b010b32151f131b1e5c111d1f">[email&#160;protected]</a></h5> */}
             </div>
             </div>
             <div className="personal-activity">

@@ -15,11 +15,15 @@ import Register from './pages/Authentication/Register';
 import Login from './pages/Authentication/Login';
 import Profile from './pages/Admin/Profile';
 import Forgetpass from './pages/Authentication/Forgetpass';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
+export const URL= process.env.BACKENDURL
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
+      <ToastContainer />
       <Header/>
       <Navbar/>
      <Routes>
